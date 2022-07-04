@@ -1,0 +1,29 @@
+{
+  "name": "tooling-section-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agviegas/tooling-section-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agviegas/tooling-section-exercise/issues"
+  },
+  "homepage": "https://github.com/agviegas/tooling-section-exercise#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.75.7"
+  },
+  "dependencies": {
+    "three": "^0.142.0",
+    "web-ifc-viewer": "^1.0.206"
+  }
+}
